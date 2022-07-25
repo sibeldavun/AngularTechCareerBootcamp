@@ -1,0 +1,31 @@
+<nav class="navbar navbar-expand-lg bg-light">
+  <div class="container">
+    <a class="navbar-brand" href="#">
+      <img src="../assets/logo.png" alt="">
+    </a>
+    <div class="d-flex">
+      <button type="button" class="btn btn-outline-success m-2" data-bs-toggle="modal" data-bs-target="#logingModal">
+        Sign In
+      </button>
+      <button type="button" class="btn btn-success m-2" data-bs-toggle="modal" data-bs-target="#registerModal">
+        Sign Up
+      </button>
+    </div>
+  </div>
+</nav>
+
+<div class="modal fade" id="logingModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <app-login> </app-login>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="registerModal" tabindex="-1" aria-labelledby="registerModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <app-register> </app-register>
+    </div>
+  </div>
+</div>
